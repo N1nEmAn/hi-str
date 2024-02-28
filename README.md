@@ -8,7 +8,7 @@ When I'm researching IoT security and want to search for some keywords in files,
 To install `histr`, simply run the provided installer script.
 
 ```bash
-./installer.sh -i
+git clone https://github.com/N1nEmAn/hi-str.git && ./installer.sh -i
 ```
 
 This will install the necessary dependencies and copy the required files to your system.
