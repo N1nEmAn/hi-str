@@ -1,0 +1,2 @@
+# hi-str
+search str
