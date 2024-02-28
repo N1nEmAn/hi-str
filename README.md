@@ -8,7 +8,7 @@ When I'm researching IoT security and want to search for some keywords in files,
 To install `histr`, simply run the provided installer script.
 
 ```bash
-git clone https://github.com/N1nEmAn/hi-str.git && cd hi-str && ./installer.sh -i
+git clone https://github.com/N1nEmAn/hi-str.git && cd hi-str && sh installer.sh -i
 ```
 
 This will install the necessary dependencies and copy the required files to your system.
@@ -29,7 +29,7 @@ histr <search_string> [<search_path>]
 To uninstall `histr`, run the installer script with the `-u` option:
 
 ```bash
-./installer.sh -u
+sh installer.sh -u
 ```
 
 This will remove `histr` from your system.
@@ -39,7 +39,7 @@ This will remove `histr` from your system.
 For additional information and usage instructions, you can display the help message by running:
 
 ```bash
-./installer.sh -h
+sh installer.sh -h
 ```
 
 # Note
