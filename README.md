@@ -1,5 +1,5 @@
 # Description
-When I want to find some key words in files, there is no really ez command for it.So I make it and upload for you.
+When I'm researching IoT security and want to search for some keywords in files, there really isn't a very simple command to do it. So I made this and uploaded it for you.
 
 `histr` is a simple tool for searching a string in files within a specified directory. It provides an easy way to search for occurrences of a given string in files recursively within a directory.
 
