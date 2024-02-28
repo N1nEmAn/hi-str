@@ -17,10 +17,10 @@ def search_string_in_files(search_string, search_path):
                                 found = True
                                 print(colored('[+]', 'green'), f'Found in: {file_path} at line {line_number}: {line.strip()}')
                 except UnicodeDecodeError as e:
-                    print(colored('[x]', 'red'), f'Unicode decoding error in file: {file_path}')
-                    print(str(e))
+                    pass
+
     except FileNotFoundError:
-        print(colored('[x]', 'red'), f'File not found: {file_path}')
+        pass
     
     if not found:
         print(colored('[o]', 'red'), 'Not found in any files.')
