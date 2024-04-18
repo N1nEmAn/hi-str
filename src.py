@@ -15,7 +15,10 @@ def search_string_in_files(search_string, search_path):
                         for line_number, line in enumerate(file, 1):
                             if search_string in line:
                                 found = True
-                                print(colored('[+]', 'green'), f'Found in: {file_path} at line {line_number}: {line.strip()}')
+                                if len(line.strip()) < 100:
+                                    print(colored('[+]', 'green'), f'Found in: {file_path} at line {line_number}: {line.strip()}')
+                                else:
+                                    print(colored('[+]', 'green'), f'Found in: {file_path} at line {line_number}')
                 except UnicodeDecodeError as e:
                     pass
 
